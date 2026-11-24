@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fcd34d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Fondo circular degradado con sombra -->
+  <circle cx="200" cy="200" r="185" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="175" fill="#1e1e2f" />
+
+  <!-- Efectos decorativos modernos -->
+  <circle cx="100" cy="90" r="24" fill="#6366f1" opacity="0.4" />
+  <circle cx="310" cy="120" r="16" fill="#06b6d4" opacity="0.4" />
+  <rect x="70" y="270" width="20" height="20" rx="4" fill="#ec4899" opacity="0.3" transform="rotate(25 80 280)" />
+
+  <!-- Silueta / Avatar estilizado -->
+  <g filter="url(#shadow)">
+    <!-- Cuerpo / Torso -->
+    <path d="M110 350 C110 285, 145 260, 200 260 C255 260, 290 285, 290 350 Z" fill="#3b82f6" />
+    <!-- Cuello -->
+    <rect x="182" y="220" width="36" height="48" rx="8" fill="url(#skinGrad)" />
+    <!-- Cabeza -->
+    <circle cx="200" cy="180" r="55" fill="url(#skinGrad)" />
+    <!-- Cabello moderno -->
+    <path d="M145 170 C145 125, 175 120, 200 120 C235 120, 255 135, 255 170 C245 155, 225 150, 200 150 C175 150, 155 155, 145 170 Z" fill="#1e293b" />
+    <path d="M145 170 Q 140 200 150 215 Q 155 185 160 170 Z" fill="#1e293b" />
+    <path d="M255 170 Q 260 200 250 215 Q 245 185 240 170 Z" fill="#1e293b" />
+    <!-- Gafas de desarrollador -->
+    <rect x="165" y="172" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="4" />
+    <rect x="207" y="172" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="4" />
+    <line x1="193" y1="182" x2="207" y2="182" stroke="#0f172a" stroke-width="4" />
+    <!-- Sonrisa amigable -->
+    <path d="M188 212 Q200 222 212 212" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" />
+    <!-- Camisa / Laptop badge -->
+    <path d="M180 260 L200 285 L220 260 Z" fill="#ffffff" opacity="0.9" />
+  </g>
+</svg>
