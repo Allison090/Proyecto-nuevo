@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <!-- Fondo redondeado pastel naranja cálido -->
+  <rect width="48" height="48" rx="10" fill="#ffedd5" />
+  <!-- Escudo HTML5 -->
+  <path d="M12 10 L15 35 L24 38 L33 35 L36 10 Z" fill="#f97316" stroke="#c2410c" stroke-width="1.5" />
+  <path d="M24 13 L24 35.5 L30.5 33.5 L33 13 Z" fill="#ea580c" />
+  <!-- Símbolo de código < / > -->
+  <text x="24" y="27" font-family="sans-serif" font-weight="900" font-size="12" fill="#ffffff" text-anchor="middle">&lt;&gt;</text>
+</svg>

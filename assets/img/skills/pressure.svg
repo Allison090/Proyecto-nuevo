@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <!-- Fondo redondeado pastel cian esmeralda suave -->
+  <rect width="48" height="48" rx="10" fill="#ccfbf1" />
+  <!-- Diamante / Resistencia y resolución bajo presión -->
+  <polygon points="24,11 35,21 24,37 13,21" fill="#ffffff" stroke="#0d9488" stroke-width="2.5" stroke-linejoin="round" />
+  <line x1="13" y1="21" x2="35" y2="21" stroke="#0d9488" stroke-width="1.5" />
+  <polyline points="20,11 24,21 28,11" fill="none" stroke="#0d9488" stroke-width="1.5" />
+  <polyline points="20,21 24,37 28,21" fill="none" stroke="#0d9488" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <!-- Fondo redondeado pastel rojo/coral suave -->
+  <rect width="48" height="48" rx="10" fill="#fee2e2" />
+  <!-- Diana / Target con flecha en el centro -->
+  <circle cx="24" cy="24" r="14" fill="#ffffff" stroke="#ef4444" stroke-width="2" />
+  <circle cx="24" cy="24" r="9" fill="#fee2e2" stroke="#dc2626" stroke-width="2" />
+  <circle cx="24" cy="24" r="4" fill="#b91c1c" />
+  <!-- Flecha en diana -->
+  <line x1="33" y1="15" x2="25" y2="23" stroke="#991b1b" stroke-width="2.5" stroke-linecap="round" />
+  <polygon points="35,13 32,18 30,16" fill="#991b1b" />
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <!-- Fondo redondeado pastel verde suave -->
+  <rect width="48" height="48" rx="10" fill="#dcfce7" />
+  <!-- Escudo SLA -->
+  <path d="M24 8 L35 13 C35 25 24 36 24 39 C24 36 13 25 13 13 Z" fill="#ffffff" stroke="#15803d" stroke-width="2.5" stroke-linejoin="round" />
+  <!-- Reloj de SLA -->
+  <circle cx="24" cy="22" r="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+  <polyline points="24,18 24,22 27,24" fill="none" stroke="#15803d" stroke-width="2" stroke-linecap="round" />
+</svg>
